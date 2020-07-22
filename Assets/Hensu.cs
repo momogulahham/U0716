@@ -4,10 +4,37 @@ using UnityEngine;
 
 public class Hensu : MonoBehaviour
 {
+    int vx = 20;
+
+    //順次処理、分岐処理、繰り返し処理
+    public void ensyu71()
+    {
+        int vx = 5;
+        Debug.Log(vx);
+
+        this.vx = 10;
+        Debug.Log(vx);
+    }
+
+    public void ensyu72()
+    {
+        int vx = 20;
+    
+        Debug.Log(vx);
+    }
+
+    public void ensyu74()
+    {
+        vx += 10;
+        Debug.Log(vx);
+    }
+
     int a=10;
     // Start is called before the first frame update
     public void Proc()
     {
+
+
         int a=10;
         float fw=3.14f;
         string str="こんにちは";
